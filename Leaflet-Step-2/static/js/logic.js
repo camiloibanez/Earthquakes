@@ -130,4 +130,4 @@ function createMap(quakeMarkers, faultLines) {
     L.control.layers(baseMaps, overlayMaps).addTo(myMap);
 };
 
-setTimeout(function() {createMap(quakeMarkers, faultLines)}, 400);
+setTimeout(function() {createMap(quakeMarkers, faultLines)}, 2000);
