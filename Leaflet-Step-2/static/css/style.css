@@ -9,6 +9,17 @@ html {
   height: 100%;
 }
 
+.title {
+  position: absolute;
+  padding: 10px 80px 10px 20px;
+  font-family: "Arial Black";
+  top: 30px;
+  left: 120px;
+  background: rgba(255,255,255,0.66);
+  border-radius: 5px;
+  box-shadow: 0 0 10px #C0C0C0;
+}
+
 .legend {
   position: absolute;
   padding: 6px 8px;
