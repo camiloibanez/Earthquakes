@@ -9,7 +9,7 @@ body {
     height: 44px;
 }
 
-.title {
+.page-title {
     position: relative;
     margin-left: 100px;
     display: inline-block;
@@ -35,7 +35,7 @@ body {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     border: none;
-    padding: 11px 32px 11px 15px;
+    padding: 11px 32px 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -46,7 +46,7 @@ body {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 2; /* Stay on top */
     top: 0; /* Stay at the top */
     right: 0;
     background-color: #111; /* Black*/
