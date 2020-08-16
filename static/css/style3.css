@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: rgb(220,220,220);
 }
 
 .menu {
@@ -87,4 +88,77 @@ body {
 
 .option {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.card1,
+.card2 {
+    position: relative;
+    width: 50%;
+    margin-top: 90px;
+    float: left;
+}
+.pic1 {
+    height: 300px;
+    width: 450px;
+    z-index: 2;
+}
+
+.pic2 {
+    height: 300px;
+    width: 450px;
+    z-index: 2;
+}
+
+.card-body1,
+.card-body2 {
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 520px;
+    width: 450px;
+    z-index: 1;
+    background-color: rgb(192,192,192);
+}
+
+.card-body1 {
+    margin-left: 150px;
+}
+
+.card-body2 {
+    margin-left: 115px;
+}
+
+.card1-text,
+.card2-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 5px 20px 0px 20px;
+}
+
+.link-btn1,
+.link-btn2 {
+    background-color:white;
+    border: solid rgb(238,232,170);
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+
+.link-btn1:hover,
+.link-btn2:hover {
+    background-color: rgb(255,255,0);
+    border: solid rgb(204,204,0);
+}
+
+.link-btn1 {
+    margin-left: 170px;
+}
+
+.link-btn2 {
+    margin-left: 170px;
+    margin-top: -50px;
 }
