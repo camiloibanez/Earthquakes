@@ -22,7 +22,7 @@ body {
 }
 
 .side-menu {
-    position: fixed;
+    position: absolute;
     right: 0;
     height: 44px;
     width: 80px;
@@ -36,7 +36,7 @@ body {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     border: none;
-    padding: 11px 32px 10px 15px;
+    padding: 11px 15px 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -90,6 +90,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#body {
+    height: 700px;
+}
 .card1,
 .card2 {
     position: relative;
@@ -161,4 +164,9 @@ body {
 .link-btn2 {
     margin-left: 170px;
     margin-top: -50px;
+}
+
+#body2 {
+    height: 700px;
+    
 }
