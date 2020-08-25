@@ -170,3 +170,18 @@ body {
     height: 700px;
     
 }
+
+.footer {
+    width: 100%;
+    background-color: rgb(84,84,84);
+    height: 40px;
+}
+
+.source {
+    margin-top: 9px;
+    margin-right: 6px;
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 18px;
+}
