@@ -54,7 +54,7 @@ function sizes(magnitude) {
 };
 
 let quakeMarkers;
-d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson", function(data) {
+d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson", function(data) {
     quakeMarkers = L.geoJSON(data, {
         pointToLayer: function(feature, latLon) {
             return L.circleMarker(latLon, {
