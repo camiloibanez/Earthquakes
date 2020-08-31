@@ -92,14 +92,25 @@ body {
 
 #body {
     height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    max-width: 1100px;
 }
 .card1,
 .card2 {
     position: relative;
-    width: 50%;
-    margin-top: 90px;
+    width: 450px;
+}
+
+.card1 {
     float: left;
 }
+
+.card2 {
+    float: right;
+}
+
 .pic1 {
     height: 300px;
     width: 450px;
@@ -120,14 +131,6 @@ body {
     width: 450px;
     z-index: 1;
     background-color: rgb(192,192,192);
-}
-
-.card-body1 {
-    margin-left: 150px;
-}
-
-.card-body2 {
-    margin-left: 115px;
 }
 
 .card1-text,
@@ -159,16 +162,29 @@ body {
 
 .link-btn1 {
     margin-left: 170px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .link-btn2 {
     margin-left: 170px;
     margin-top: -50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #body2 {
     height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
     
+}
+
+#about {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footer {
