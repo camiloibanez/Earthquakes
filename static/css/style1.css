@@ -12,6 +12,7 @@ html {
 #map {
   z-index: 0;
 }
+
 .legend {
   position: absolute;
   padding: 6px 8px;

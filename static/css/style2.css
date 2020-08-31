@@ -1,34 +1,187 @@
 body {
-  padding: 0;
-  margin: 0;
+    margin: 0px;
+    background-color: rgb(220,220,220);
 }
 
-#map,
-body,
-html {
-  height: 100%;
+.menu {
+    background-color: rgb(255,255,191);
+    position: relative;
+    display: flex;
+    height: 44px;
 }
 
-#map {
-  z-index: 0;
+.page-title {
+    position: relative;
+    margin-left: 100px;
+    display: inline-block;
+    margin-top:10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
 }
 
-.legend {
-  position: absolute;
-  padding: 6px 8px;
-  font: 12px Arial;
-  bottom: 25px;
-  right: 15px;
-  color: #6E6E6E;
-  background: rgba(255,255,255,0.8);
-  border-radius: 5px;
-  box-shadow: 0 0 15px #1C1C1C;
-  z-index: 1;
-} 
+.side-menu {
+    position: absolute;
+    right: 0;
+    height: 44px;
+    width: 80px;
+}
 
-.legend div span {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin-right: 10px;
+.side-menu:hover {
+    background-color: rgb(204,204,0);
+}
+.menu-btn {
+    position: relative;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 11px 15px 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+    /* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+    /* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+    /* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.option {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#body {
+    height: 700px;
+}
+.card1,
+.card2 {
+    position: relative;
+    width: 50%;
+    margin-top: 90px;
+    float: left;
+}
+.pic1 {
+    height: 300px;
+    width: 450px;
+    z-index: 2;
+}
+
+.pic2 {
+    height: 300px;
+    width: 450px;
+    z-index: 2;
+}
+
+.card-body1,
+.card-body2 {
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 520px;
+    width: 450px;
+    z-index: 1;
+    background-color: rgb(192,192,192);
+}
+
+.card-body1 {
+    margin-left: 150px;
+}
+
+.card-body2 {
+    margin-left: 115px;
+}
+
+.card1-text,
+.card2-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 5px 20px 0px 20px;
+}
+
+.link-btn1,
+.link-btn2 {
+    background-color:white;
+    border: solid rgb(238,232,170);
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+
+.link-btn1:hover,
+.link-btn2:hover {
+    background-color: rgb(255,255,0);
+    border: solid rgb(204,204,0);
+}
+
+.link-btn1 {
+    margin-left: 170px;
+}
+
+.link-btn2 {
+    margin-left: 170px;
+    margin-top: -50px;
+}
+
+#body2 {
+    height: 700px;
+    
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(84,84,84);
+    height: 40px;
+}
+
+.source {
+    margin-top: 9px;
+    margin-right: 6px;
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 18px;
 }
