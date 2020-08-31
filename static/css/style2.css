@@ -100,7 +100,12 @@ body {
 .card1,
 .card2 {
     position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 520px;
     width: 450px;
+    z-index: 1;
+    background-color: rgb(192,192,192);
 }
 
 .card1 {
@@ -123,36 +128,25 @@ body {
     z-index: 2;
 }
 
-.card-body1,
-.card-body2 {
-    border: 2px solid black;
-    border-radius: 5px;
-    height: 520px;
-    width: 450px;
-    z-index: 1;
-    background-color: rgb(192,192,192);
-}
-
-.card1-text,
-.card2-text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    padding: 5px 20px 0px 20px;
-}
-
 .link-btn1,
 .link-btn2 {
+    position: relative;
     background-color:white;
     border: solid rgb(238,232,170);
     color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     border-radius: 12px;
     transition-duration: 0.4s;
-  }
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    max-width: 150px;
+}
 
 .link-btn1:hover,
 .link-btn2:hover {
@@ -160,23 +154,11 @@ body {
     border: solid rgb(204,204,0);
 }
 
-.link-btn1 {
-    margin-left: 170px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.link-btn2 {
-    margin-left: 170px;
-    margin-top: -50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 #body2 {
     height: 700px;
     margin-left: auto;
     margin-right: auto;
     max-width: 1100px;
-    
 }
 
 #about {
